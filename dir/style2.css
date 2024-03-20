@@ -1,35 +1,35 @@
-
-body{
+body {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
-.section-1{
-    background-color:#25D0AD !important;
+.section-1 {
+    background-color: #25D0AD !important;
     /* border: 1px solid white; */
     /* box-shadow: 3px 3px 10px rgb(253, 251, 251); */
 }
-.ns_section{
+
+.ns_section {
     border: 1px solid white;
     box-shadow: 5px 5px 0px black
-
 }
 
-.grid_items{
+.grid_items {
     border: 0.3px solid rgb(102, 99, 99);
-    height:34px;
+    height: 34px;
 }
-.gridmargin{
+
+.gridmargin {
     margin-top: 70px;
 }
 
-.instructed{
+.instructed {
     background-color: #25D0AD;
     font-size: 15px;
     left: 50%;
     transform: translateY(-50%)translateX(-50%);
 }
 
-.worked{
+.worked {
     background-color: #25D0AD;
     font-size: 12px;
     left: 18.5%;
@@ -37,48 +37,134 @@ body{
     /* box-shadow: 1px 1px 0px black,-1px -1px 0px black; */
     outline: 1px solid black;
 }
-.content_img{
+
+.content_img {
     border: 1px solid rgb(255, 255, 255);
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
 }
-.sec_2_item{
+
+.sec_2_item {
     box-shadow: 3px 3px 0px white;
-    border-radius: 8px ;
+    border-radius: 8px;
     overflow: hidden;
     border: 1px solid white;
 }
-.sec_2_item:nth-last-child(){
-   border-left: 1px solid white;
-}
-.sec_3_ns_item{
-    height: 100%;
-}
-.borderleft{
+
+.sec_2_item:nth-last-child() {
     border-left: 1px solid white;
 }
-.section-3{
+
+.sec_3_ns_item {
+    height: 100%;
+}
+
+.borderleft {
+    border-left: 1px solid white;
+}
+
+.section-3 {
     background-color: #25D0AD;
     border-bottom: 1px solid black;
 }
-.section-4{
-    border-bottom:1px solid black ;
+
+.section-4 {
+    border-bottom: 1px solid black;
 }
-.sec_5_ns_item{
+
+.section-5 {
+    padding-bottom: 10px;
+}
+
+.lastmodule {
+    padding-bottom: 40px !important;
+}
+
+.sec_5_ns_item {
     border: 1px solid black;
     box-shadow: 4px 4px 0px black;
     border-radius: 10px;
 
 }
-.sec_4_ns_item{
+
+.sec_5_ns_item ul {
+    border-bottom: 1px dotted black;
+
+}
+
+.sec_5_ns_item ul li {
+    list-style: square;
+    font-size: 14px;
+    line-height: 33px !important;
+}
+
+.bordertop {
+    border-top: 1px solid black;
+}
+
+.mentor {
+    background-color: white !important;
+
+}
+
+.ns_mentor {
+    background-color: #25D0AD;
+    border: 1px solid black;
+}
+
+.certificate_image img {
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px black;
+}
+
+.registation {
+    /* border: 1px solid white; */
+}
+
+.fee_section {
+    border: 1px solid white;
+    box-shadow: 6px 6px 0px black;
+}
+
+.contentAndImg {
     /* border: 1px solid black; */
 }
-.sec_4_ns_item .sec_4_items{
+
+.sec_5_ns_item ul li::marker {
+    font-size: 18px;
+}
+
+.moudle {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.none {
+    border: none !important;
+}
+
+.card_main {
+    box-shadow: 7px 7px 0px black !important;
+    /* box-shadow: none !important; */
+}
+
+.sec_4_ns_item {
+    /* border: 1px solid black; */
+}
+
+.sec_4_ns_item .sec_4_items {
     background-color: #131033;
 
 }
-.icons::before{
+
+.second ul {
+    border: none;
+
+}
+
+.icons::before {
     content: '';
     width: 35px;
     height: 35px;
@@ -87,21 +173,54 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 10px;
-
-
-}
-.footer{
-
 }
 
-.image_section{
+.enrol::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-top: -12px;
+    /* margin-right: 20px; */
+    background-image: url('assest/icon/right-arrow.png');
+    background-size: 20px 20px;
+    filter: invert(1);
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
-.content_section{
-
+.registerNow {
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px white;
 }
 
-.logos{
+.fee_discription::before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url('assest/icon/check.png') !important;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.ns_query{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px black;
+}
+.queryList{
+    border: 1px solid black;
+}
+
+.footer {}
+
+.image_section {}
+
+.content_section {}
+
+.logos {
     /* border: 1px solid rgb(0, 0, 0); */
 }
