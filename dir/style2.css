@@ -23,10 +23,12 @@ body {
 }
 
 .instructed {
-    background-color: #25D0AD;
-    font-size: 15px;
-    left: 50%;
-    transform: translateY(-50%)translateX(-50%);
+    /* background-color: #25D0AD; */
+    /* font-size: 15px; */
+    left: 0px; right: 0px;
+
+    transform: translate(0%,-50%);
+
 }
 
 .worked {
@@ -215,6 +217,10 @@ body {
     border: 1px solid black;
 }
 
+.inputss:focus{
+outline: none;
+}
+
 .footer {}
 
 .image_section {}
@@ -223,4 +229,42 @@ body {
 
 .logos {
     /* border: 1px solid rgb(0, 0, 0); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+    .container{
+        background-color: #131033 !important;
+    }
+    .grid_items{
+        height: 50px;
+    }
+
+    .gridmargin {
+        margin-top: 0px;
+    }
+
+
+
+
+    .brochure{
+        /* left: 50%; */
+        transform: translateX(100%); 
+        left: -42%;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
 }

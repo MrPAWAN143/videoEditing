@@ -4,35 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TGC India</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <div class="container bg-black mb-96">
-        <div class="section-1 w-100 h-auto pl-2 pr-3 pt-3 pb-5">
-            <div class="ns_section w-[100%] h-[100%] bg-black rounded-[12px] overflow-hidden">
-                <div class="logo mt-12">
-                    <a href="" class="block">
-                        <img src="assest/images/logo.svg" class="block m-auto " alt="">
-                    </a>
+    <div class="container bg-black mb-96   md:m-auto ">
+        <div class="section-1 w-100 h-auto pl-2 pr-3 pt-3 pb-5 ">
+            <div class="ns_section w-[100%]  h-[100%] bg-black rounded-[12px] overflow-hidden md:flex">
+                <div class="md:block md:w-[50%]">
+                    <div class="logo mt-12">
+                        <a href="" class="block md:m-auto">
+                            <img src="assest/images/logo.svg" class="block m-auto " alt="">
+                        </a>
+                    </div>
+                    <div class="first_heading mt-6 px-6 mb-10">
+                        <h1 class="text-white text-[30px] text-center font-normal leading-10">
+                            Master the fundamentals of SEO in just 2 days
+                        </h1>
+
+                        <p class="text-white text-center mt-5">Discover how to rank your website at the top of the
+                            search
+                            results by learning both on-page and off-page SEO</p>
+                    </div>
                 </div>
-                <div class="first_heading mt-6 px-6 mb-10">
-                    <h1 class="text-white text-[30px] text-center font-normal leading-10">
-                        Master the fundamentals of SEO in just 2 days
-                    </h1>
-
-                    <p class="text-white text-center mt-5">Discover how to rank your website at the top of the search
-                        results by learning both on-page and off-page SEO</p>
-                </div>
 
 
-                <div class="relative">
-                    <button class="px-8 py-2 rounded-full instructed text-white text-center absolute">INSTRUCTED
-                        BY</button>
+                <div class="relative md:w-[50%]">
+                    <div class="m-auto md:absolute md:top-[50px]  brochure md:m-0 md:p-0">
+                        <a href="# "
+                            class="px-3 mx-16 py-2 rounded-full bg-[#25D0AD] instructed text-white text-center left-auto absolute md:static ">DOWNLOAD
+                            BROCHURE
+                        </a>
+                    </div>
 
-                    <div class="grid grid-cols-12 h-auto grid-rows-12 gridmargin overflow-hidden">
+                    <div class="grid grid-cols-12 h-auto grid-rows-12 gridmargin overflow-hidden md:mt-0">
                         <div class="grid_items"></div>
                         <div class="grid_items"></div>
                         <div class="grid_items"></div>
@@ -205,24 +212,57 @@
 
                     </div>
 
-                    <div class="content_img w-[83%] rounded-md  h-auto absolute z-10">
-                        <div class="image_section basis-4/6 h-[70%]">
-                            <img src="assest/images/grid_imgage.jpg" class=" py-5" alt="">
-                        </div>
-                        <div class="content_section w-100 h-[30%] pb-6 pt-4 border top-1 bg-black">
-                            <p class="text-center text-white text-[17px] mt-3">Kaushal Thakkar</p>
-                            <p class="text-center text-white text-[0.8rem]">Founder and Managing Director of Infidigit
-                            </p>
+                    <div
+                        class="content_img w-[80%] rounded-md  min-h-[360px]  absolute z-10 bg-black md:w-[400px] md:h-[440px] md:left-0">
 
-                        </div>
+
+
+
+                        <form action="" class="px-3 py-4 md:py-10 md:w-[400px] md:h-auto md:m-auto">
+
+                            <p class="text-white text-[22px] text-center">GET FEE DETAILS</p>
+
+                            <div class="flex items-center justify-center  w-[100%] mt-6">
+                                <!-- <label for="name" class="text-white font-normal ">Name:</label> -->
+                                <input type="text" name="name"
+                                    class="text-black pl-2 py-2  w-[100%] ml-2 rounded-md inputss" id="name"
+                                    placeholder="Name">
+
+
+                            </div>
+
+                            <div class="flex items-center justify-center  w-[100%] mt-6">
+                                <!-- <label for="eamil" class="text-white font-normal ">Email:</label> -->
+                                <input type="email" name="email"
+                                    class="text-black pl-2 py-2  w-[100%] ml-2 rounded-md inputss" id="email"
+                                    placeholder="Email">
+
+
+                            </div>
+
+                            <div class="flex items-center justify-center  w-[100%] mt-6">
+                                <!-- <label for="phone" class="text-white font-normal ">Email:</label> -->
+                                <input type="tel" name="phone"
+                                    class="text-black pl-2 py-2  w-[100%] ml-2 rounded-md inputss" id="phone"
+                                    placeholder="Phone">
+
+
+                            </div>
+                            <div class=" w-[100%] mt-8 px-2">
+                                <button
+                                    class="block bg-[#25D0AD] m-auto py-2 w-[100%] text-[19px] font-light rounded-md">Submit</button>
+                            </div>
+
+
+                        </form>
 
 
                     </div>
 
-                    <a class="px-8 py-2 rounded-full worked text-white text-center absolute">WORKED WITH BRANDS LIKE</a>
+                    <!-- <a class="px-8 py-2 rounded-full worked text-white text-center absolute">WORKED WITH BRANDS LIKE</a> -->
 
                 </div>
-                <div class="footer w-100 h-[200px] bg-white flex flex-wrap px-10 pt-6 pb-3">
+                <div class="footer w-100 h-[200px] bg-white flex flex-wrap px-10 pt-6 pb-3 md:hidden">
                     <div class="logos w-[50%] flex items-center justify-center ">
                         <img src="assest/images/647eddbb8ea90863fda20109_infidigit.png" class="object-contain" alt="">
                     </div>
@@ -241,7 +281,7 @@
 
             </div>
         </div>
-        <div class="section-2 w-100 h-[150px] bg-black p-5">
+        <div class="section-2 w-100 h-[150px] bg-black p-5 md:hidden">
             <div class="sec_2_item h-[100%] w-100 flex items-center justify-between">
                 <div class="sec_3_ns_item w-[50%] flex items-start justify-center pt-5">
                     <div class="timer">
@@ -323,6 +363,13 @@
                         <p class="text-white rounded-md">Anyone who’s looking to scale up on SEO
                         </p>
                     </div>
+                </div>
+
+                <div class=" w-[100%] h-100 rounded-md mt-6 px-2">
+
+                    <a href="" class="bg-[#25D0AD] text-white py-3 text-center block text-[20px] rounded-md">Apply
+                        now</a>
+
                 </div>
             </div>
 
@@ -483,7 +530,18 @@
 
             </div>
 
+
+
+
+            <div class=" w-[100%] h-100 rounded-md mt-12 px-2">
+
+                <a href="" class="bg-[#25D0AD]  text-white py-3 text-center block text-[20px] rounded-md">Call back</a>
+
+            </div>
+
         </div>
+
+
 
 
 
@@ -710,17 +768,22 @@
                 </div> -->
                 <div class="relative block text-start ns_query mb-6">
                     <div class="w-100 m-auto px-1">
-                        <button class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "  aria-expanded="true" aria-haspopup="true">
+                        <button
+                            class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "
+                            aria-expanded="true" aria-haspopup="true">
                             I made the payment but didn’t receive any email
-                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                                     clip-rule="evenodd" />
                             </svg>
                         </button>
 
-                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                           
-                          </div>
+                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+
+                        </div>
 
                     </div>
 
@@ -731,17 +794,22 @@
 
                 <div class="relative block text-start ns_query mb-6">
                     <div class="w-100 m-auto px-1">
-                        <button class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "  aria-expanded="true" aria-haspopup="true">
+                        <button
+                            class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "
+                            aria-expanded="true" aria-haspopup="true">
                             When is the Workshop?
-                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                                     clip-rule="evenodd" />
                             </svg>
                         </button>
 
-                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                           
-                          </div>
+                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+
+                        </div>
 
                     </div>
 
@@ -751,17 +819,22 @@
 
                 <div class="relative block text-start ns_query mb-6">
                     <div class="w-100 m-auto px-1">
-                        <button class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "  aria-expanded="true" aria-haspopup="true">
+                        <button
+                            class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "
+                            aria-expanded="true" aria-haspopup="true">
                             Would there be any certificate on completion?
-                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                                     clip-rule="evenodd" />
                             </svg>
                         </button>
 
-                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                           
-                          </div>
+                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+
+                        </div>
 
                     </div>
 
@@ -770,17 +843,22 @@
 
                 <div class="relative block text-start ns_query mb-6">
                     <div class="w-100 m-auto px-1">
-                        <button class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "  aria-expanded="true" aria-haspopup="true">
+                        <button
+                            class="flex pt-5 pb-5 w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-3  text-sm font-semibold text-gray-900   ring-gray-300 "
+                            aria-expanded="true" aria-haspopup="true">
                             When will I receive the bonuses?
-                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                                     clip-rule="evenodd" />
                             </svg>
                         </button>
 
-                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                           
-                          </div>
+                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+
+                        </div>
 
                     </div>
 
