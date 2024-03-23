@@ -1,6 +1,6 @@
-body {
+/* body {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-}
+} */
 
 .section-1 {
     background-color: #25D0AD !important;
@@ -79,9 +79,9 @@ body {
     padding-bottom: 10px;
 }
 
-.lastmodule {
-    padding-bottom: 40px !important;
-}
+.lastmodule { 
+    padding-bottom: 60px;
+ }
 
 .sec_5_ns_item {
     border: 1px solid black;
@@ -283,5 +283,22 @@ outline: none;
     .section-1{
         border-bottom: 1px solid black;
     }
+    .lastmodule { 
+        padding-bottom: 0px;
+     }
     
+     .sec_5_ns_item {
+        border: 1px solid black;
+        box-shadow: 4px 4px 0px black;
+        border-radius: 25px;
+    
+    }
+
+    .mentorImage{
+        box-shadow: 8px 8px 0px black;
+    }
+
+    /* .mentor_content{
+        border: 1px solid black;
+    } */
 }
