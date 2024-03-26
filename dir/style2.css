@@ -1,5 +1,6 @@
 body{
     background-color: black !important;
+    width:100%;
 }
 
 .section-1 {
@@ -233,20 +234,19 @@ outline: none;
 
 
 .jsForm{
- margin-left: 50%;
- transform: translateX(-50%);
     top: 150px;
     z-index: 10;
     height: 380px !important;
-    /* left: 50%; */
+    left: 50%;
     /* width: 90% !important; */
-   
-    /* transform: translate(,100px); */
     border: 1px solid rgb(255, 255, 255);
     background-color: black;
+    transform: translateX(-50%);
 }
 
-
+.fs{
+    font-size: 30px !important;
+}
 
 
 
@@ -318,12 +318,14 @@ outline: none;
       
         top: 0px;
         z-index: 10;
-        /* left: 50%; */
+        left: 50%;
         transform: translate(-50%,100px);
         border: 1px solid rgb(255, 255, 255);
         background-color: black;
     }
-    /* .mentor_content{
-        border: 1px solid black;
-    } */
+
+    .fs{
+        font-size: 26px !important;
+    }
+   
 }

@@ -6,15 +6,17 @@ registerNow.addEventListener('click', function () {
     container.style.opacity = '0.3'
     let body = document.querySelector('body')
 
-    body.classList.add('relative')
+    // body.classList.add('relative')
 
     body.style.position = 'fixed'
     body.style.top = '0px'
+    body.style.left = '50%'
+    body.style.transform = 'translate(-50%)'
 
     body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] md:h-auto md:m-auto absolute  jsForm">
 
-    <div class='flex justify-between px-5'>
-    <p class="text-white text-[22px]  text-center">Download Free Browcher</p> 
+    <div class='flex justify-between px-3 fs'>
+    <p class="text-white   text-center">Download Free Browcher</p> 
     <a href='' class="text-white text-[22px] text-center cross">X</a> 
     </div>
 
@@ -80,15 +82,18 @@ let applynowbtn = document.querySelector('.applynow')
         container.style.opacity = '0.3'
         let body = document.querySelector('body')
 
-        body.classList.add('relative')
+        // body.classList.add('relative')
 
         body.style.position = 'fixed'
         body.style.top = '0px'
+        body.style.top = '0px'
+        body.style.left = '50%'
+        body.style.transform = 'translate(-50%)'
 
         body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] w-[100%]  md:h-auto md:m-auto absolute jsForm">
     
-        <div class='flex justify-between px-5'>
-        <p class="text-white text-[22px]  text-center">Download Free Browcher</p> 
+        <div class='flex justify-between px-3 fs'>
+        <p class="text-white  text-center">Apply now</p> 
         <a href='' class="text-white text-[22px] text-center cross">X</a> 
         </div>
     
@@ -120,7 +125,7 @@ let applynowbtn = document.querySelector('.applynow')
         </div>
         <div class=" w-[100%] mt-8 px-2 m-auto">
             <button
-                class="block bg-[#25D0AD] m-auto py-2 w-[100%] text-[19px] font-light rounded-md">Download now</button>
+                class="block bg-[#25D0AD] m-auto py-2 w-[100%] text-[19px] font-light rounded-md">Apply now</button>
         </div>
     
     
@@ -148,16 +153,17 @@ callblack.addEventListener('click', function () {
     container.style.opacity = '0.3'
     let body = document.querySelector('body')
 
-    body.classList.add('relative')
+    // body.classList.add('relative')
 
     body.style.position = 'fixed'
     body.style.top = '0px'
-
-
+    body.style.left = '50%'
+    body.style.transform = 'translate(-50%)'
+    
     body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] w-[100%]   md:h-auto md:m-auto absolute jsForm ">
 
-    <div class='flex justify-between px-5'>
-    <p class="text-white text-[22px]  text-center">Download Free Browcher</p> 
+    <div class='flex justify-between px-3 fs'>
+    <p class="text-white  text-center">Start a conversation</p> 
     <a href='' class="text-white text-[22px] text-center cross">X</a> 
     </div>
 
@@ -189,7 +195,7 @@ callblack.addEventListener('click', function () {
     </div>
     <div class=" w-[100%] mt-8 px-2 m-auto">
         <button
-            class="block bg-[#25D0AD] m-auto py-2 w-[100%] text-[19px] font-light rounded-md">Download now</button>
+            class="block bg-[#25D0AD] m-auto py-2 w-[100%] text-[19px] font-light rounded-md">Submit message</button>
     </div>
 
 
