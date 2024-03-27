@@ -223,6 +223,9 @@ body{
 .inputss:focus{
 outline: none;
 }
+.gradiednt{
+    background: linear-gradient(180deg , #141033 ,#25D0AD);
+   }
 
 .footer {}
 
@@ -250,7 +253,12 @@ outline: none;
     font-size: 30px !important;
 }
 
-
+.gridmargin {
+    margin-top: 0px !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  !important;
+    height: 511px !important;
+   
+}
 
 
 
@@ -268,9 +276,10 @@ outline: none;
     }
 
     .gridmargin {
-        margin-top: 0px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 0px !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        height: auto !important;
        
     }
 
