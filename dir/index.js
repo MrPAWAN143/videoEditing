@@ -13,7 +13,7 @@ registerNow.addEventListener('click', function () {
     body.style.left = '50%'
     body.style.transform = 'translate(-50%)'
 
-    body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] md:h-auto md:m-auto absolute  jsForm">
+    body.innerHTML += ` <form action="" class="  px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] md:h-auto md:m-auto absolute  jsForm">
 
     <div class='flex justify-between px-3 fs'>
     <p class="text-white   text-center">Download Free Browcher</p> 
@@ -78,19 +78,19 @@ let applynowbtn = document.querySelector('.applynow')
 // console.log(x)
 
 // if (x >= 430) {
-    applynowbtn.addEventListener('click', function (e) {
-        container.style.opacity = '0.3'
-        let body = document.querySelector('body')
+applynowbtn.addEventListener('click', function (e) {
+    container.style.opacity = '0.3'
+    let body = document.querySelector('body')
 
-        // body.classList.add('relative')
+    // body.classList.add('relative')
 
-        body.style.position = 'fixed'
-        body.style.top = '0px'
-        body.style.top = '0px'
-        body.style.left = '50%'
-        body.style.transform = 'translate(-50%)'
+    body.style.position = 'fixed'
+    body.style.top = '0px'
+    body.style.top = '0px'
+    body.style.left = '50%'
+    body.style.transform = 'translate(-50%)'
 
-        body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] w-[100%]  md:h-auto md:m-auto absolute jsForm">
+    body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] w-[100%]  md:h-auto md:m-auto absolute jsForm">
     
         <div class='flex justify-between px-3 fs'>
         <p class="text-white  text-center">Apply now</p> 
@@ -133,16 +133,16 @@ let applynowbtn = document.querySelector('.applynow')
 
 
 
-        let cross = document.querySelector('.cross')
-        let jsForm = document.querySelector('.jsForm')
-        cross.addEventListener('click', function () {
-            jsForm.style.display = 'none'
-            container.style.opacity = '0'
-        })
-
-
-
+    let cross = document.querySelector('.cross')
+    let jsForm = document.querySelector('.jsForm')
+    cross.addEventListener('click', function () {
+        jsForm.style.display = 'none'
+        container.style.opacity = '0'
     })
+
+
+
+})
 
 
 
@@ -159,7 +159,7 @@ callblack.addEventListener('click', function () {
     body.style.top = '0px'
     body.style.left = '50%'
     body.style.transform = 'translate(-50%)'
-    
+
     body.innerHTML += ` <form action="" class="px-3 py-4 md:pt-8 md:pb-12 md:w-[400px] w-[100%]   md:h-auto md:m-auto absolute jsForm ">
 
     <div class='flex justify-between px-3 fs'>
@@ -216,4 +216,15 @@ callblack.addEventListener('click', function () {
 
 
 
+let getfeeDetails = document.querySelector('.getfeeDetails')
+getfeeDetails.addEventListener('submit', (e) => {
+    e.preventDefault()
+    let getname = document.querySelector('.getname').value
+    let getemail = document.querySelector('.getemail').value
+    let getphone = document.querySelector('.getphone').value
+
+
+   
+    console.log(getname , getemail , getphone)
+})
 
