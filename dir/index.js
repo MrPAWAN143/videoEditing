@@ -224,7 +224,15 @@ getfeeDetails.addEventListener('submit', (e) => {
     let getphone = document.querySelector('.getphone').value
 
 
-   
-    console.log(getname , getemail , getphone)
+
+    console.log(getname, getemail, getphone)
 })
 
+
+
+let collapse = document.querySelector('.collapse1')
+
+collapse.addEventListener('click',function(){
+    // collapse.style.height = '300px !important'
+    console.log('hello')
+})
