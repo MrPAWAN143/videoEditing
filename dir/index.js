@@ -151,6 +151,8 @@ let callblack = document.querySelector('.callblack')
 
 callblack.addEventListener('click', function () {
     container.style.opacity = '0.3'
+ 
+    
     let body = document.querySelector('body')
 
     // body.classList.add('relative')
