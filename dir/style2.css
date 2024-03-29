@@ -106,7 +106,8 @@ body {
 .sec_5_ns_item ul li {
     list-style: square;
     font-size: 14px;
-    line-height: 33px !important;
+    line-height: 25px !important;
+    margin-bottom: 10px;
 }
 
 .bordertop {
