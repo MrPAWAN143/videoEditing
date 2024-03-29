@@ -232,9 +232,9 @@ getfeeDetails.addEventListener('submit', (e) => {
 
 
 
-let collapse = document.querySelector('.collapse1')
+// let collapse = document.querySelector('.collapse1')
 
-collapse.addEventListener('click',function(){
-    // collapse.style.height = '300px !important'
-    console.log('hello')
-})
+// collapse.addEventListener('click',function(){
+//     collapse.style.height = '300px'
+//     console.log('hello')
+// })
