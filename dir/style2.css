@@ -403,4 +403,10 @@ body {
     }
 
 
+    .videoSection::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+
 }

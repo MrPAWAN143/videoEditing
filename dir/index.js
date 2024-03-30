@@ -231,6 +231,91 @@ getfeeDetails.addEventListener('submit', (e) => {
 })
 
 
+// Initialization for ES Users
+
+function RightArrow1() {
+    let item = document.querySelectorAll('.videoitem')
+    let itemActive = document.querySelectorAll('.dot')
+    let activedot = 0
+    let activeIndex = 0
+
+    for (let i = 0; i < itemActive.length; i++) {
+      if (itemActive[i].classList.contains('active')) {
+        activedot = i
+      }
+      itemActive[i].classList.remove('active')
+    }
+
+    if (activedot == itemActive.length - 1) {
+      activedot = 0
+      itemActive[activedot].classList.add('active')
+    } else {
+      itemActive[activedot + 1].classList.add('active')
+    }
+
+
+    for (let i = 0; i < item.length; i++) {
+      if (item[i].classList.contains('active')) {
+        activeIndex = i
+      }
+      item[i].classList.remove('active')
+
+    }
+
+    if (activeIndex == item.length - 1) {
+      activeIndex = 0
+
+
+      item[activeIndex].classList.add('active')
+
+    } else {
+      item[activeIndex + 1].classList.add('active')
+    }
+
+
+  }
+
+
+  function LeftArrow1() {
+    let item = document.querySelectorAll('.videoitem')
+   
+    let activeIndex = 0
+
+
+    for (let i = 0; i < itemActive.length; i++) {
+      if (itemActive[i].classList.contains('active')) {
+        activedot = i
+      }
+      itemActive[i].classList.remove('active')
+    }
+
+    if (activedot == 0) {
+      activedot = itemActive.length - 1
+      itemActive[activedot].classList.add('active')
+    } else {
+      itemActive[activedot - 1].classList.add('active')
+    }
+
+    for (let i = 0; i < item.length; i++) {
+      if (item[i].classList.contains('active')) {
+        activeIndex = i
+      }
+      item[i].classList.remove('active')
+
+    }
+
+    if (activeIndex == 0) {
+      activeIndex = item.length - 1
+
+      item[activeIndex].classList.add('active')
+
+    } else {
+      item[activeIndex - 1].classList.add('active')
+    }
+
+  }
+
+
 
 // let collapse = document.querySelector('.collapse1')
 
