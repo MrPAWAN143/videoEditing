@@ -275,6 +275,17 @@ body {
     box-shadow: 4px 4px 0px black;
 }
 
+.videoSection::-webkit-scrollbar{
+    display: none;
+}
+.videoSection{
+    scroll-snap-type: x mandatory;
+}
+.videoitem{
+    scroll-snap-align: start;
+}
+
+
 
 
 
@@ -406,7 +417,12 @@ body {
     .videoSection::-webkit-scrollbar{
         display: none;
     }
-    
+    .videoSection{
+        scroll-snap-type: x mandatory;
+    }
+    .videoitem{
+        scroll-snap-align: start;
+    }
     
 
 }
