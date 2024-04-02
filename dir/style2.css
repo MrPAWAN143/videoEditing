@@ -244,11 +244,11 @@ body {
 
 .gradiednt {
 
-    background-color: yellowgreen;
+    background-color: #008000;
 }
 
-.gradiedntx{
-    background: linear-gradient(180deg, #141033, #25D0AD);
+.gradiedntf{
+    background: linear-gradient(180deg, #141033, #25D0AD) !important;
 }
 
 .footer {}
@@ -305,7 +305,45 @@ body {
     color: rgb(55, 47, 47);
     font-size: 20px;
 }
+.socialitems{
+    width: 30px;
+    height: 30px;
+  /* border: 1px solid white; */
+}
 
+.phone{
+    margin: auto !important;
+}
+
+.directSocialmedia{
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 0;
+    padding: 10px;
+    top: 60%;
+    transform: translatey(-100%);
+    z-index: 50;
+    min-width: 50px;
+    min-height: 130px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: #008000;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+.whatsapp{
+    width: 45px !important;
+    height: 45px !important;
+
+}
+
+.call{
+    width: 45px !important;
+    height: 45 px !important;
+
+}
 
 
 
@@ -411,7 +449,7 @@ body {
 
     .gradiednt {
         /* background: linear-gradient(180deg, #9f721D, #9f1132); */
-        background-color: yellowgreen;
+        background-color: #008000;
     }
 
     .gradiedntf {
@@ -458,4 +496,16 @@ body {
         color: rgb(242, 241, 241);
         font-size: 14px;
     }
+
+
+
+
+    .socialitems{
+        width: 30px;
+        height: 30px;
+      /* border: 1px solid white; */
+    }
+
+
+    
 }
