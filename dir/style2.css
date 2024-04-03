@@ -346,6 +346,23 @@ body {
 }
 
 
+.bottom_fixed{
+    width: 100%;
+    background-color:#000000c3;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    z-index: 50;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.advosor{
+    box-shadow: 6px 6px 20px #008800 , -6px -6px 20px #008800;
+}
+.advisorApply{
+    background: linear-gradient(to right , #141033,#25D0AD);
+   }
+
 
 
 
@@ -506,6 +523,24 @@ body {
       /* border: 1px solid white; */
     }
 
+
+    .lockerbag::before{
+        content: '';
+        width: 50px;
+        height: 50px;
+        background-image: url('assest/icon/laptop.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        color: white;
+        filter: invert(1);
+
+
+    }
+
+    .advisorApply{
+     background: linear-gradient(to right , #141033,#25D0AD);
+    }
 
     
 }
