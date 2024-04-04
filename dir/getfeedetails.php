@@ -9,10 +9,10 @@ if(isset($_POST['name'])){
 //   $message = "Message: " . $_POST['message'];
 
   // Send email to info@tgcindia.com
-  $to = "pkumarrana143@gmail.com, tgcanimation@gmail.com, ranjan354@gmail.com";
+  $to = "pkumarrana143@gmail.com";
   $subject = "New Inquiry From Graphic Design Adwords TGC INDIA";
   $headers = "From: $email" . "\r\n" . "Reply-To: $email" . "\r\n" . "X-Mailer: PHP/" . phpversion();
-  $mail_body = "Name: $name\nPhone: $phone\nEmail: $email\n\n$message";
+  $mail_body = "Name: $name\nPhone: $phone\nEmail: $email\n";
   mail($to, $subject, $mail_body, $headers);
 
   // Send confirmation email to user
