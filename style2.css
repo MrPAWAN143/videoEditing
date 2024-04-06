@@ -219,8 +219,8 @@ body {
 .fee_discription::before {
     content: '';
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-image: url('assest/icon/check.png') !important;
     background-size: 25px 25px;
     background-position: center;
@@ -247,7 +247,7 @@ body {
     background-color: #008000;
 }
 
-.gradiedntf{
+.gradiedntf {
     background: linear-gradient(180deg, #141033, #25D0AD) !important;
 }
 
@@ -305,17 +305,19 @@ body {
     color: rgb(55, 47, 47);
     font-size: 20px;
 }
-.socialitems{
+
+.socialitems {
     width: 30px;
     height: 30px;
-  /* border: 1px solid white; */
+    margin-left: 16px !important;
+    /* border: 1px solid white; */
 }
 
-.phone{
+.phone {
     margin: auto !important;
 }
 
-.directSocialmedia{
+.directSocialmedia {
     /* border: 1px solid red; */
     position: fixed;
     right: 0;
@@ -326,29 +328,29 @@ body {
     min-width: 50px;
     min-height: 130px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #008000;
     border-radius: 8px 0px 0px 8px;
 
 }
 
-.whatsapp{
+.whatsapp {
     width: 45px !important;
     height: 45px !important;
 
 }
 
-.call{
+.call {
     width: 45px !important;
     height: 45 px !important;
 
 }
 
 
-.bottom_fixed{
+.bottom_fixed {
     width: 100%;
-    background-color:#000000c3;
+    background-color: #000000c3;
     height: auto;
     position: fixed;
     bottom: 0px;
@@ -357,15 +359,18 @@ body {
     /* transition: 1s ease; */
 }
 
-.advosor{
-    box-shadow: 6px 6px 20px #008800 , -6px -6px 20px #008800;
+.advosor {
+    box-shadow: 6px 6px 20px #008800, -6px -6px 20px #008800;
 }
-.advisorApply{
-    background: linear-gradient(to right , #141033,#25D0AD);
-   }
+
+.advisorApply {
+    background: linear-gradient(to right, #141033, #25D0AD);
+}
 
 
-
+.socalmedia{
+    margin-left: 0px !important;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -506,6 +511,10 @@ body {
         scroll-snap-align: start;
     }
 
+    .socalmedia {
+        margin-left: 45px !important;
+    }
+
     .socalmedia a:hover {
         color: rgb(211, 175, 175);
     }
@@ -518,14 +527,14 @@ body {
 
 
 
-    .socialitems{
+    .socialitems {
         width: 30px;
         height: 30px;
-      /* border: 1px solid white; */
+        /* border: 1px solid white; */
     }
 
 
-    .lockerbag::before{
+    .lockerbag::before {
         content: '';
         width: 50px;
         height: 50px;
@@ -539,9 +548,9 @@ body {
 
     }
 
-    .advisorApply{
-     background: linear-gradient(to right , #141033,#25D0AD);
+    .advisorApply {
+        background: linear-gradient(to right, #141033, #25D0AD);
     }
 
-    
+
 }
