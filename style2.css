@@ -372,6 +372,9 @@ body {
     margin-left: 0px !important;
 }
 
+
+
+
 @media only screen and (min-width: 768px) {
 
 
@@ -512,11 +515,13 @@ body {
     }
 
     .socalmedia {
-        margin-left: 45px !important;
+     margin-left: -15px !important;
+        
+
     }
 
     .socalmedia a:hover {
-        color: rgb(211, 175, 175);
+        color: rgba(211, 175, 175, 0.935);
     }
 
     .socalmedia a {
